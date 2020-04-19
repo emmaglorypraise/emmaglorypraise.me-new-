@@ -1,9 +1,3 @@
-/*
-  Theme Name: DevFolio
-  Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
 
 /*======================================
 //--//-->   STYLES GENERALES
@@ -202,7 +196,8 @@ a:hover {
 /*------/ Socials /------*/
 
 .socials {
-  padding: 1.5rem 0;
+  /* padding: 1.5rem 0; */
+  padding: 0px 2px;
 }
 
 .socials ul li {
@@ -862,105 +857,6 @@ a:hover {
   line-height: 1.6;
 }
 
-/*======================================
-//--//-->   BLOG
-======================================*/
-
-.card-blog .card-body {
-  position: relative;
-}
-
-.card-blog .card-category-box {
-  position: absolute;
-  text-align: center;
-  top: -16px;
-  left: 15px;
-  right: 15px;
-  line-height: 25px;
-  overflow: hidden;
-}
-
-.card-blog .card-category {
-  display: inline-block;
-  color: #fff;
-  padding: 0 15px 5px;
-  overflow: hidden;
-  background-color: #8400ff;
-  border-radius: 4px;
-}
-
-.card-blog .card-category .category {
-  color: #fff;
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: .7rem;
-  letter-spacing: .1px;
-  margin-bottom: 0;
-}
-
-.card-blog .card-title {
-  font-size: 1.3rem;
-  margin-top: .6rem;
-}
-
-.card-blog .card-description {
-  color: #4e4e4e;
-}
-
-.card-blog .post-author {
-  display: inline-block;
-}
-
-.card-blog .post-date {
-  color: #4e4e4e;
-  display: inline-block;
-  float: right;
-}
-
-/*======================================
-//--//-->   BLOG-SINGLE
-======================================*/
-
-.post-box,
-.form-comments,
-.box-comments,
-.widget-sidebar {
-  padding: 2rem;
-  background-color: #fff;
-  margin-bottom: 3rem;
-}
-
-.blog-wrapper .article-title {
-  font-size: 1.5rem;
-}
-
-.blog-wrapper .post-meta {
-  margin: 1rem 0;
-}
-
-.blog-wrapper .post-meta ul {
-  border-left: 4px solid #8400ff;
-  margin-top: 1rem;
-}
-
-.blog-wrapper .post-meta ul li {
-  display: inline-block;
-  margin-left: 15px;
-}
-
-.blog-wrapper .post-meta ul a {
-  color: #8400ff;
-}
-
-.blog-wrapper .post-meta ul span {
-  color: #1e1e1e;
-}
-
-.blog-wrapper .blockquote {
-  border-left: 4px solid #8400ff;
-  padding: 18px;
-  font-style: italic;
-}
 
 /*------/ Comments /------*/
 
@@ -1262,4 +1158,35 @@ footer .credits a {
   .back-to-top {
     bottom: 15px;
   }
+}
+
+/* 404 page  */
+
+.errorPage  {
+  padding: 150px 5px 255px 5px;
+  background: linear-gradient(to bottom, #8400ff 0%, #ff99cc 100%);
+}
+
+.errorPage h1 {
+ 
+  color: #ffffff;
+  font-size: 60px;
+}
+
+.errorPage h2{
+  color: #ffffff;
+  font-size: 35px;
+}
+
+.errorPage button{
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+
+  border: none;
+  border-radius: 10px;
+}
+
+.errorPage button a {
+  color: #8400ff;
 }
