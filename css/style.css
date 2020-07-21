@@ -4,6 +4,10 @@ body {
   color: #4e4e4e;
 }
 
+img {
+  object-fit: cover;
+}
+
 h1,
 h2,
 h3,
@@ -120,7 +124,7 @@ a:hover {
 }
 
 .sect-mt4 {
-  margin-top: 4rem;
+  margin-top: 0;
 }
 
 /*--/ Title s /--*/
@@ -616,6 +620,7 @@ a:hover {
   color: #fff;
   font-weight: 600;
   font-size: 3rem;
+  margin-top: 80px;
 }
 
 .intro .intro-subtitle {
